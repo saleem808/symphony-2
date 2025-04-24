@@ -22,7 +22,7 @@ export default class WebVRButton extends Component {
     return (
       <div className={sidebarClassName}>
         <button className='expand' onClick={this.props.toggleSidebar} />
-        <h1>Symphony</h1>
+        <h1>Kaspa</h1>
         <h2>3D Blockchain Explorer</h2>
         <div className='section key'>
           <h3>Transaction Value</h3>
@@ -35,7 +35,7 @@ export default class WebVRButton extends Component {
             <span className='spending-key'><img alt='Unspent Transaction' src={txUnspent} /> <span>Unspent</span></span>
           </div>
         </div>
-        <div className='section explore'>
+        {/* <div className='section explore'>
           <h3>Explore</h3>
           <ul>
             <li>
@@ -47,12 +47,12 @@ export default class WebVRButton extends Component {
               <span id='sidebar-jump-date' onClick={this.props.toggleDateSearch}>Jump to Date</span>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className='sidebar-footer'>
           <div className='sidebar-footer-inner'>
-            <a href='https://iohk.io'>
-              <span className='iohk-supported'>IOHK Supported Project</span>
-              <img className='iohk-logo' alt='IOHK Logo' src={iohkLogo} />
+            <a href='https://www.web3geeks.co/'>
+              <span className='iohk-supported'>Web3 Geeks</span>
+              {/* <img className='iohk-logo' alt='IOHK Logo' src={iohkLogo} /> */}
             </a>
           </div>
         </div>
